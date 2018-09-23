@@ -1,0 +1,52 @@
+<!-- 
+  	Selecionando elementos
+-->
+
+<body>
+	
+	<button id="bt1"> BTN1 </button>
+	<button class="bt2"> BTN2 </button>
+
+	<ul class="lista1">
+		<li> it1 </li>
+		<li> it2 </li>
+		<li> it3 </li>
+		<li> it4 </li>
+		<li> it5 </li>
+	</ul>
+
+	<ul class="lista2">
+		<li> it1 </li>
+		<li> it2 </li>
+		<li class="botao"> it3 </li>
+		<li> it4 </li>
+		<li> it5 </li>
+	</ul>
+
+
+</body>
+
+
+<script>
+	
+	//pegando um elemento por classe
+	$('.lista2')
+
+	//pegando um elemento por classe
+	$('#bt1')	
+
+	//pegando um elemento dentro da lista
+	$('.lista2 li.botao')
+
+	//pegando um elemento por classe
+	$('.lista2')
+
+
+	//os elementos capturados retorna um array de dados
+	//para verificar se o arry nao estar vazio
+	if( $('.botao').length > 0 ){
+		console.log('ok tem elemento');
+	}
+
+</script>
+
