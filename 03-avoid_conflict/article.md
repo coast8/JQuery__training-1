@@ -1,10 +1,10 @@
 
 ## way to avoid conflict with other libs Js
 
-	//criando uma variavel para acessar a lib
+	// creating a variable to access lib
 	var $j = JQuery.noConflict();
 
-	//mudou a maneira de acessar o JQuery
+	// changed the way to access JQuery
 	$j(document).ready(function(){
 		alert("ola, documento carregado");
 	});

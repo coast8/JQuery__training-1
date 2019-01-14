@@ -1,9 +1,11 @@
 <!-- 
-  	Selecionando elementos
+	=========================
+  	  Selecionando elementos
+  	=========================
 -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-<body>
-	
+<body>	
 	<button id="bt1"> BTN1 </button>
 	<button class="bt2"> BTN2 </button>
 
@@ -22,31 +24,23 @@
 		<li> it4 </li>
 		<li> it5 </li>
 	</ul>
-
-
 </body>
 
-
 <script>
-	
-	//pegando um elemento por classe
+	// capturing one element per class
 	$('.lista2')
 
-	//pegando um elemento por classe
+	// capturing one element per id
 	$('#bt1')	
 
-	//pegando um elemento dentro da lista
+	// capturing an element within the list
 	$('.lista2 li.botao')
 
-	//pegando um elemento por classe
-	$('.lista2')
 
-
-	//os elementos capturados retorna um array de dados
-	//para verificar se o arry nao estar vazio
+	// os elementos capturados retorna um array de dados
+	// para verificar se o arry nao estar vazio
 	if( $('.botao').length > 0 ){
 		console.log('ok tem elemento');
 	}
-
 </script>
 
