@@ -20,7 +20,7 @@
 		//VALOR DO ATRIBUTO É DIFERENTE
 		$('a[rel!="up1"]').css('color','#606');
 		
-		$('a[title*="UpInside"]').click(function(){
+		$('a[title*="LorenIpson"]').click(function(){
 			alert('Estamos estudando os seletores de atributos!');
 		});
 	});
@@ -31,7 +31,7 @@
 
 <a href="#" rel="up1">Link 1</a>
 <a href="#" rel="up2">Link 2</a>
-<a href="#up" rel="up3" title="UpInside">Link 3</a>
+<a href="#up" rel="up3" title="LorenIpson">Link 3</a>
 
 </body>
 </html>

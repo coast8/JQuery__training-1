@@ -24,7 +24,7 @@
 <body>
 
 <ul>
-	<li>UpInside Tecnologia</li>
+	<li>Loren Ipson</li>
     <li>Portal <span>de</span> Interatividade</li>
     <li></li>
     <li>Cursos e <span>Vídeo aulas</span> em TI</li>
